@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
+.bootstrap-demo .dropdown-trigger {
+  border-radius: 0.25rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bootstrap-demo .dropdown-trigger > span:after {
+  font-size: 12px;
+  color: #555;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bootstrap-demo .toggle {
+  font: normal normal normal 12px/1 FontAwesome;
+  color: #555;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bootstrap-demo .toggle.collapsed::after {
+  content: "\f067";
 }
 
-.App-link {
-  color: #61dafb;
+.bootstrap-demo .toggle.expanded::after {
+  content: "\f068";
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bootstrap-demo .root {
+  padding: 0px;
+  margin: 0px;
 }
